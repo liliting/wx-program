@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots='{{indicatorDots}}' indicator-color="#fcfcfc" indicator-active-color="#FDBD35">
+  <block>
+    <swiper-item wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <image src="{{item}}" class="slide-image" width="100%" height="100%"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="btn-group">
+  <navigator class="btn">4K直播</navigator>
+  <navigator class="btn">4K内容</navigator> 
+</view>
+
+<view class="ul">
+  <view class="list">
+    <view class="list-item" wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <image src="/images/desc3.jpg" class="list-image" width="100%" height="100%"></image>
+      <view class="list-desc">
+        <text class="desc-title">霍比特人：五军之战</text>
+        <text class="desc-content">五军会展场面壮观</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="text-tips">
+  <text>主人，無更多内容了哦~</text>
+</view>

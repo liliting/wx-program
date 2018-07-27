@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/buy/buy",
+    "pages/map/map"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FDBD35",
+    "navigationBarTitleText": "4K花园",
+    "navigationBarTextStyle":"#454444",
+    "backgroundColor":"#e2e0e1"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/ic_home_normal.png",
+        "selectedIconPath":"images/ic_home_active.png"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "开通会员",
+        "iconPath": "images/ic_buy_normal.png",
+        "selectedIconPath": "images/ic_buy_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "images/ic_user_normal.png",
+        "selectedIconPath": "images/ic_user_active.png"
+      }
+    ],
+    "color":"#6c6c6c",
+    "selectedColor":"#fdbd35",
+    "backgroundColor":"#fcfcfc",
+    "borderStyle":"white"
+  }
+}

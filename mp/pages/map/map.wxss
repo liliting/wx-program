@@ -1,0 +1,16 @@
+.map-container{
+  width: 100%;
+
+}
+.title{
+  font-size: 36rpx;
+  margin-top:50rpx;
+  margin-bottom: 50rpx;
+  margin-left: 40rpx;
+  display: block;
+}
+#map{
+  width:90%;
+  margin: auto;
+  height:400rpx;
+}

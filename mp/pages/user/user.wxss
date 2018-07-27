@@ -1,0 +1,72 @@
+/**index.wxss**/
+.userinfo-container{
+  width: 100%;
+  height: 200rpx;
+  position:relative;
+  background:#fafafa;
+}
+.userinfo {
+  position:absolute;
+  top:53rpx;
+  left: 52rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 83rpx;
+  height: 83rpx;
+  margin-right: 32rpx;
+  /* margin: 20rpx; */
+  border-radius: 50%;
+  box-shadow: 0 10rpx 20rpx  rgba(0,0,0,.3);
+}
+.userinfo-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight:300;
+}
+.userinfo-nickname {
+  color: #3d3d3d;
+  margin-bottom: 10rpx;
+  line-height:1;
+  font-size:28rpx;
+}
+.userinfo-tips{
+  font-size: 18rpx;
+  line-height:1;
+}
+.button-group{
+  width: 100%;
+  height:80rpx;
+}
+.btn{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  /* background:#F6F4F5; */
+  color:#3e3337;
+  border-bottom: 1px solid #f6f4f5;
+}
+.btn-before{
+  width:12rpx;
+  height: 80rpx;
+}
+.btn-text{
+  flex: 2;
+  margin-left: 40rpx;
+  font-size: 30rpx;
+  font-weight: 300;
+}
+.btn-arrow{
+  width: 20rpx;
+  height: 36rpx;
+  margin-right: 26rpx;
+}
+.btn-vip-text{
+  display: block;
+  font-size: 30rpx;
+  line-height:2;
+}

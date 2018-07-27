@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="userinfo-container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="userinfo-content">
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <text class="userinfo-tips">開通會員立享4K超高清大片哦~</text>
+      </view> 
+    </block>
+  </view>
+</view>
+
+<view class="button-group">
+  <navigator class="btn">
+    <image src="/images/green.png" class="btn-before"></image>
+    <text class="btn-text">續費4K花園黃金會員</text>
+    <image src="/images/arrow.png" class="btn-arrow"></image>
+  </navigator>
+</view>
+<view class="button-group">
+  <navigator class="btn" url="/pages/map/map">
+    <image src="/images/blue.png" class="btn-before"></image>
+    <text class="btn-text">收货地址管理</text>
+    <image src="/images/arrow.png" class="btn-arrow"></image>
+  </navigator>
+</view>
+<view class="button-group">
+  <view class="btn vip">
+    <image src="/images/yellow.png" class="btn-before" style="height:120rpx;"></image>
+    <view class="btn-text">
+      <text class="btn-vip-text">黄金会员：2018-12-30</text> 
+      <text class="btn-vip-text">白金会员：2019-12-30</text>
+    </view>
+  </view>
+</view>
