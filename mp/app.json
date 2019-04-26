@@ -28,6 +28,12 @@
         "selectedIconPath": "images/ic_buy_active.png"
       },
       {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/ic_user_normal.png",
+        "selectedIconPath": "images/ic_user_active.png"
+      },
+      {
         "pagePath": "pages/user/user",
         "text": "个人中心",
         "iconPath": "images/ic_user_normal.png",
