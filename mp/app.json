@@ -1,25 +1,25 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/user/user",
     "pages/buy/buy",
     "pages/map/map"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FDBD35",
     "navigationBarTitleText": "4K花园",
-    "navigationBarTextStyle":"#454444",
-    "backgroundColor":"#e2e0e1"
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#e2e0e1"
   },
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "list": [
       {
-        "pagePath":"pages/index/index",
-        "text":"首页",
-        "iconPath":"images/ic_home_normal.png",
-        "selectedIconPath":"images/ic_home_active.png"
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/ic_home_normal.png",
+        "selectedIconPath": "images/ic_home_active.png"
       },
       {
         "pagePath": "pages/buy/buy",
@@ -34,9 +34,10 @@
         "selectedIconPath": "images/ic_user_active.png"
       }
     ],
-    "color":"#6c6c6c",
-    "selectedColor":"#fdbd35",
-    "backgroundColor":"#fcfcfc",
-    "borderStyle":"white"
-  }
+    "color": "#6c6c6c",
+    "selectedColor": "#fdbd35",
+    "backgroundColor": "#fcfcfc",
+    "borderStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
 }
